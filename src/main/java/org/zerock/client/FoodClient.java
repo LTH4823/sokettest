@@ -12,11 +12,11 @@ public class FoodClient {
 
     public FoodClient(){
         serverMap = new HashMap<>();
-        serverMap.put("동남아","192.168.0.76");
-        serverMap.put("양식","192.168.0.88");
-        serverMap.put("한식","192.168.0.115");
-        serverMap.put("분식","192.168.0.99");
-        serverMap.put("일식","192.168.0.106");
+        serverMap.put("동남아","192.168.0.0");
+        serverMap.put("양식","192.168.0.0");
+        serverMap.put("한식","192.168.0.0");
+        serverMap.put("분식","192.168.0.0");
+        serverMap.put("일식","192.168.0.0");
     }
 
     //bad code

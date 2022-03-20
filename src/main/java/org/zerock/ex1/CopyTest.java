@@ -11,7 +11,7 @@ public class CopyTest {
     //bad code
     public static void main(String[] args)throws Exception {
 
-        String path = "https://caching.lottecinema.co.kr//Media/MovieFile/MovieMedia/202203/18406_301_1.mp4";
+        String path = "";
 
         InputStream inputStream = new URL(path).openStream();
 
